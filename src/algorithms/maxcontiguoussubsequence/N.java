@@ -1,4 +1,4 @@
-package maxcontiguoussubsequence;
+package algorithms.maxcontiguoussubsequence;
 
 public class N {
 	
@@ -10,22 +10,15 @@ public class N {
 		 
 		 for(int i = 0, j = 0; j < a.length; j++) { 
 			 thisSum += a[j];
-			 
 			 if(thisSum > maxSum) { 
-				 
 				 maxSum = thisSum;
 				 seqStart = i;
 				 seqEnd = j;
-				 
 			 } else if (thisSum < 0) { 
-				 
 				 i = j + 1;
 				 thisSum = 0;
-				 
 			 }
-			 
 		 }
-		 
 		 return maxSum;
 	 }
 
