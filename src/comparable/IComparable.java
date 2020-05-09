@@ -1,5 +1,5 @@
 package comparable;
 
-public interface Comparable {
+public interface IComparable {
 	int compareTo(Object other);
 }
