@@ -1,4 +1,4 @@
-package leetcode;
+package leetcode.reversedigits;
 
 public class RunReverseDigits {
 
