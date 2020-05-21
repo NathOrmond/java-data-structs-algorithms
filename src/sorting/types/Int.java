@@ -1,4 +1,4 @@
-package algorithms.sorting;
+package sorting.types;
 
 public class Int implements Comparable {
 	
